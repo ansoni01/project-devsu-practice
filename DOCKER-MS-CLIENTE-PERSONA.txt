@@ -1,0 +1,9 @@
+* Para correr la aplicación en docker ejecutamos los siguientes comandos:
+"docker pull adoptopenjdk"
+"docker build -t ms-cliente-persona-docker ."
+"docker run --name ms-cliente-persona-docker -p 8080:8080 ms-cliente-persona-docker:latest"
+
+- esto permitira levantar el proyecto ms-cliente-persona en el puerto 8080.
+
+* Como paso siguiente, importar en el postman la collección para realizar las pruebas el archivo
+ DEVSU.postman_collection 
